@@ -2,10 +2,15 @@
   "name": "util-commands",
   "version": "1.0.0",
   "description": "Just a set of commands",
-  "main": "index.js",
+  "bin": {
+    "utils": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Christophe CHICHMANIAN",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.20.0"
+  }
 }
